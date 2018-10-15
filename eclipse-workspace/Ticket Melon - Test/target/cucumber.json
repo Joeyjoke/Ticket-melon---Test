@@ -1,0 +1,241 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5648245120,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User open browser",
+            "match": {
+              "location": "Test_Step.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1997978508,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to Stackexchange",
+            "match": {
+              "location": "Test_Step.navigate_to_Stackexchange()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 253061,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify successful login",
+        "description": "",
+        "id": "test-select-where-i-want-to-go-and-when-return;verify-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 151323,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 385432011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 769417046,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login",
+            "match": {
+              "location": "Test_Step.Click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169860842,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select to log in with stackexchange",
+            "match": {
+              "location": "Test_Step.Selecttologinwithstackexchange()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10801679689,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "input username and password",
+            "match": {
+              "location": "Test_Step.inputUsername_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Log in successfully"
+            ],
+            "result": {
+              "duration": 13004158826,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Show Result of login",
+            "match": {
+              "location": "Test_Step.Userinput_wrong_username_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3456321424,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User open browser",
+            "match": {
+              "location": "Test_Step.user_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2345525404,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to Stackexchange",
+            "match": {
+              "location": "Test_Step.navigate_to_Stackexchange()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify search",
+        "description": "",
+        "id": "test-select-where-i-want-to-go-and-when-return;verify-search",
+        "after": [
+          {
+            "result": {
+              "duration": 44884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 290190231,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Step.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2918537191,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Fill in \"automate test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automate test",
+                  "offset": 9
+                }
+              ],
+              "location": "Test_Step.fillIn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456725381,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Check all subject at first page",
+            "match": {
+              "location": "Test_Step.checkAllSubjectAtFirstPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test select where I want to go and when return",
+    "description": "",
+    "id": "test-select-where-i-want-to-go-and-when-return",
+    "keyword": "Feature",
+    "uri": "Feature/Test.feature"
+  }
+]
